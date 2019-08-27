@@ -1,5 +1,5 @@
 /****************************************************************
-* Copyright (C) Vertver, 2019. All rights reserved.
+* Vertver, 2019. All rights no reserved.
 * libsleeptm - simple library to manipulate with time
 * License: Unlicense
 * ***************************************************************
