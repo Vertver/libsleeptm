@@ -54,7 +54,7 @@ slMicroSleep(
 );
 
 /*
-	slMicroSleep - Suspend current thread until the time-out interval in milliseconds elapses.
+	slMilliSleep - Suspend current thread until the time-out interval in milliseconds elapses.
 
 	On failed return -1, success - 0
 */
@@ -64,7 +64,7 @@ slMilliSleep(
 );
 
 /*
-	slMicroSleep - Suspend current thread until the time-out interval in seconds elapses.
+	slSecondsSleep - Suspend current thread until the time-out interval in seconds elapses.
 
 	On failed return -1, success - 0
 */
@@ -74,7 +74,7 @@ slSecondSleep(
 );
 
 /*
-	slMicroSleep - Get time from system startup in 32-bit integers
+	slGetSystemTime32 - Get time from system startup in 32-bit integers
 
 	On failed return -1, success - 0
 */
@@ -84,7 +84,7 @@ slGetSystemTime32(
 );
 
 /*
-	slMicroSleep - Get time from system startup in 64-bit integers
+	slGetSystemTime64 - Get time from system startup in 64-bit integers
 
 	On failed return -1, success - 0
 */
