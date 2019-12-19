@@ -29,23 +29,13 @@ slInitialize(
 	*/
 	if (bHQTimer)
 	{
-		/*
-			If failed - try lower timer resolution
-		*/
-		if (timeBeginPeriod(0) != TIMERR_NOERROR)
+		if (timeBeginPeriod(1) != TIMERR_NOERROR)
 		{
-			if (timeBeginPeriod(1) != TIMERR_NOERROR)
-			{
-				return -1;
-			}
-			else
-			{
-				HighQualityTimer = 1;
-			}
+			return -1;
 		}
 		else
 		{
-			HighQualityTimer = 0;
+			HighQualityTimer = 1;
 		}
 	}
 
